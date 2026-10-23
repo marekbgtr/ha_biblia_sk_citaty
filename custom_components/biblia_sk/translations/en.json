@@ -1,0 +1,38 @@
+{
+  "title": "Biblia.sk – Jeruzalemská Biblia",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Jeruzalemská Biblia – Botek",
+        "description": "One passage is selected daily. The seven defaults repeat weekly; you can extend the list. Use book codes from Biblia.sk URLs. The first passage is checked online when saving.",
+        "data": {
+          "passages": "Passages (one per line)"
+        }
+      }
+    },
+    "error": {
+      "invalid_passages": "Invalid list. Use mk 1:14-15, one passage per line.",
+      "cannot_connect": "Cannot connect to Biblia.sk.",
+      "missing_verses": "First passage not found. Check book, chapter and verses."
+    },
+    "abort": {
+      "already_configured": "Already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Jeruzalemská Biblia – Botek",
+        "description": "One passage is selected daily. The seven defaults repeat weekly; you can extend the list. Use book codes from Biblia.sk URLs. The first passage is checked online when saving.",
+        "data": {
+          "passages": "Passages (one per line)"
+        }
+      }
+    },
+    "error": {
+      "invalid_passages": "Invalid list. Use mk 1:14-15, one passage per line.",
+      "cannot_connect": "Cannot connect to Biblia.sk.",
+      "missing_verses": "First passage not found. Check book, chapter and verses."
+    }
+  }
+}

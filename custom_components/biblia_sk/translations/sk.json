@@ -1,0 +1,38 @@
+{
+  "title": "Biblia.sk – Jeruzalemská Biblia",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Jeruzalemská Biblia – Botek",
+        "description": "Každý deň sa vyberie jeden úryvok zo zoznamu. Sedem predvolených úryvkov sa opakuje po týždni. Zoznam môžeš rozšíriť. Skratka knihy je z URL Biblia.sk. Pri uložení sa online overí prvý úryvok.",
+        "data": {
+          "passages": "Úryvky (jeden na riadok)"
+        }
+      }
+    },
+    "error": {
+      "invalid_passages": "Neplatný zoznam. Použi napríklad mk 1:14-15, jeden úryvok na riadok.",
+      "cannot_connect": "Nepodarilo sa pripojiť k Biblia.sk.",
+      "missing_verses": "Prvý úryvok sa nenašiel. Skontroluj skratku knihy, kapitolu a verše."
+    },
+    "abort": {
+      "already_configured": "Integrácia je už nastavená."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Jeruzalemská Biblia – Botek",
+        "description": "Každý deň sa vyberie jeden úryvok zo zoznamu. Sedem predvolených úryvkov sa opakuje po týždni. Zoznam môžeš rozšíriť. Skratka knihy je z URL Biblia.sk. Pri uložení sa online overí prvý úryvok.",
+        "data": {
+          "passages": "Úryvky (jeden na riadok)"
+        }
+      }
+    },
+    "error": {
+      "invalid_passages": "Neplatný zoznam. Použi napríklad mk 1:14-15, jeden úryvok na riadok.",
+      "cannot_connect": "Nepodarilo sa pripojiť k Biblia.sk.",
+      "missing_verses": "Prvý úryvok sa nenašiel. Skontroluj skratku knihy, kapitolu a verše."
+    }
+  }
+}

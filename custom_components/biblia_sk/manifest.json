@@ -1,0 +1,13 @@
+{
+  "domain": "biblia_sk",
+  "name": "Biblia.sk – Jeruzalemská Biblia",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://biblia.sk",
+  "issue_tracker": "https://github.com/issues",
+  "codeowners": [],
+  "dependencies": [],
+  "requirements": [],
+  "iot_class": "cloud_polling",
+  "integration_type": "service"
+}

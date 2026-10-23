@@ -1,0 +1,19 @@
+type: markdown
+title: Biblický citát
+content: |-
+  {% set e = 'sensor.biblicky_citat' %}
+  {% if state_attr(e, 'text') %}
+  {{ state_attr(e, 'text') }}
+
+  **{{ states(e) }}**
+
+  *{{ state_attr(e, 'preklad') }}*
+
+  [Čítať kapitolu]({{ state_attr(e, 'url') }})
+
+  {% if state_attr(e, 'aktualne') == false %}
+  ⚠️ Posledný uložený citát z {{ state_attr(e, 'datum') }}.
+  {% endif %}
+  {% else %}
+  Citát sa načítava.
+  {% endif %}
